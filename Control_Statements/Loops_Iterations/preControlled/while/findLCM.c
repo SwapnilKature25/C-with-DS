@@ -5,6 +5,7 @@
 #include<stdio.h>
 int main()
 {
+        /*
         int i=1,a,b,gcd;
         printf("Enter a,b Value ");         //
         scanf("%d %d",&a,&b);
@@ -23,14 +24,36 @@ int main()
         // Enter a,b Value 4 6
         // LCM=12
 
-
+        */
 
 
         // Finding lcm of given two numbers:
         // without using gcd :
 
 
-        int a,b,max
+        int a,b,max;
+        printf("Enter a,b Value ");         //
+        scanf("%d %d",&a,&b);
+
+        max = a>b ? a : b;
+        while(1)
+        {
+            if(max%a==0 && max%b==0)
+            {
+                printf("LCM=%d",max);
+                break;
+            }
+            max++;
+        }
+
+        // Enter a,b Value 4 6
+        // LCM=12
+
+        // Enter a,b Value 7 5
+        // LCM=35
+
+        
+
         
 
         
