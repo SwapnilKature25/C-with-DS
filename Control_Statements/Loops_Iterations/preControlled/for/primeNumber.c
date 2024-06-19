@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
-{
-        
+{       
         long int n,i,c=0;
         printf("Enter the Number ");        
         scanf("%d",&n);
+        // 1 factor is 1 only
         if(n==1)    printf("Not a Prime/Composite Number");  
         else {
             
