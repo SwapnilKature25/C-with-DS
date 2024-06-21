@@ -13,4 +13,8 @@ int main()
         }
         printf("Digits Sum is %d",sum);
 
+/*
+Enter n Value 456
+Digits Sum is 15
+*/
 }
