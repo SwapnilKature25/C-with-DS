@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<dos.h>
+#include<process.h>
 int main()
 {   
     int i,t,n;
@@ -12,6 +12,7 @@ int main()
             printf("%d * %d = %d\n",t,i,i*t);
         }
         printf("\n");
-        delay(1000);
+        // delay(1000);
     }
+    return 0;
 }
