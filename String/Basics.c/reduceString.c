@@ -5,8 +5,11 @@ int main()
     char s[50];
     int i;
     printf("Enter the String ");  gets(s);
+    // bharathi
     // for(i=0; s[i]!='\0'; i++) puts(s+i);
-    for(i=0; s[i]!='\0'; i++);
+
+    // Aishwarya
+    for(i=0; s[i]!='\0'; i++);      //len
     for(; i>0; i--, s[i]='\0')  puts(s);
 }
 
