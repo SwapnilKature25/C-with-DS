@@ -24,7 +24,7 @@ int main()
     char s1[50];
     int i,j,len,c,c1;
     printf("Enter a String ");
-    scanf("%s",s1);
+    gets(s1);
 
     for(i=0; s1[i]!='\0'; i++);
     len=i;
@@ -49,3 +49,29 @@ int main()
     }
     
 }
+
+/*
+Enter a String Hello Everyone
+
+The Frequency of H is 1
+
+The Frequency of l is 2
+
+The Frequency of   is 1
+
+The Frequency of E is 1
+
+The Frequency of v is 1
+
+The Frequency of e is 3
+
+The Frequency of r is 1
+
+The Frequency of y is 1
+
+The Frequency of o is 2
+
+The Frequency of n is 1
+
+The Frequency of e is 3
+*/

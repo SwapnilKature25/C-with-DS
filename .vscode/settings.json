@@ -60,6 +60,7 @@
   "files.associations": {
     "*.embeddedhtml": "html",
     "type_traits": "c",
-    "math.h": "c"
+    "math.h": "c",
+    "stdio.h": "c"
   }
 }

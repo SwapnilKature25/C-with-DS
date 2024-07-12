@@ -1,4 +1,9 @@
+/*
+Enter the String Racecar
+Palindrome
+*/
 #include<stdio.h>
+#include<ctype.h>
 int main()
 {
     char s1[100],s2[100];
@@ -15,7 +20,12 @@ int main()
 
     for(i=0; s1[i]!='\0'; i++)
     {
-        
+        if(tolower(s1[i])!=tolower(s2[i]))
+        {
+            puts("Not a Palindrome");
+            return 0;
+        }
     }
+    printf("Palindrome");
 
 }
