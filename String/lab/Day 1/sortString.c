@@ -20,7 +20,7 @@ int main()
     for(i=0; i<s[i]!='\0'; i++);
     len=i;
     
-    for(i=0; i<s[i]!='\0'; i++)
+    for(i=0; i<len; i++)
     {
         for(j=i+1; j<len; j++)
         {
