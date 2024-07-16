@@ -31,6 +31,6 @@ int main()
             s[i]=s[j];
         }
     }
-    if(strcmp(s2,s)==0) printf("%c is a Palindrome",s);
-    else printf("%c is not a Palindrome",s);
+    if(strcmp(s2,s)==0) printf("%s is a Palindrome",s);
+    else printf("%s is not a Palindrome",s);
 }
