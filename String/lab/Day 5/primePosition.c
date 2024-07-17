@@ -10,13 +10,20 @@ Output as : da sdey
 int main()
 {
     char s[30];
-    int i;
+    int i,n,j,c;
     printf("Enter a String ");
     gets(s);
 
-    for(i=0; s[i]!='\0'; i++)
+    for(i=0; s[i]!='\0'; i++);
+    n=i;
+
+    for(i=0; i<n; i++)
     {
-        if(s[i]%i==1);
+        for(c=0,j=i;j>0;j--)
+        {
+            if(i%j==0)c++;
+        }
+       if(c==2) printf("%c",s[i]);
     }
 
 }
